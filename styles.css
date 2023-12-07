@@ -1,0 +1,189 @@
+.main {
+  background: #f1f1f1;
+  width: 320px;
+  height: 568px;
+}
+.centered-absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.buttons-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+.button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+}
+
+.start-button {
+  background-color: #12ce18;
+}
+
+.start-button:hover {
+  background-color: #358539;
+}
+
+.stop-button {
+  background-color: #ff4500;
+}
+
+.stop-button:hover {
+  background-color: #8b0000;
+}
+.reset-button {
+  background-color: blue;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: 10px;
+  padding: 10px;
+  cursor: pointer;
+  width: 70px;
+  height: 50px;
+  border-radius: 70%;
+}
+
+.reset-button:hover {
+  background-color: #6d65f9;
+}
+
+.timer-display {
+  width: 121px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #ffffff;
+  font-family: "Orbitron", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  line-height: 1.5;
+}
+.heading {
+  display: flex;
+  height: 39px;
+  padding: 4px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 20px;
+
+  font-family: "Orbitron", sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+}
+Alarm-Clock .alarm-container {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.alarm-time {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.alarm-buttons-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  justify-content: space-between;
+  height: 100px;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.alarm-button {
+  padding: 10px;
+  width: 50%;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.alarm-button:hover {
+  background-color: #5c55de;
+}
+
+/* Time zones */
+
+.footer-body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+#clock-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: aliceblue;
+}
+
+.clock-container {
+  flex: 0 0 calc(50% - 20px);
+  margin: 10px;
+  justify-content: center;
+  font-family: "Orbitron", sans-serif;
+}
+
+.clock {
+  border: 4px solid blue;
+  border-radius: 10px;
+  padding: 20px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.city-name {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  background-color: blue;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .clock-container {
+    flex: 0 0 calc(50% - 20px);
+  }
+}
