@@ -2,7 +2,7 @@
 
 ## I have made the Stopwatch, Alarm Clock and Time Zones for 4 different Cities around the World.
 
-## The Stop Watch i made is from totorials and help from Danial and the other two with the help oh AI.
+## The Stop Watch i made is from totorials and help from Brandon and the other two with the help oh AI.
 
 ## CSS i have done by myself using bootstrap and with the help from Coches.
 
